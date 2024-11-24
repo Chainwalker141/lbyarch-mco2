@@ -1,5 +1,5 @@
 # lbyarch-mco2
-MCO2 project for lbyarch
+MCO2 project for lbyarch (Sinjian, So)
 
 # SPECS
 ![cbab51df-1a4c-40a7-8211-20e7ce056902](https://github.com/user-attachments/assets/88898778-90e3-4293-978c-de77933955c6)
