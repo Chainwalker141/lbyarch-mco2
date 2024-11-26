@@ -18,8 +18,7 @@ For 2^20, The average time is 0.0078.
 For 2^24, The average time is 0.1032333333.
 For 2^29, The average time is 4.596566667.
 
-An observation shows that it takes more time to run a kernel with a larger vector size.   
-
+An observation shows that it takes more time to run a kernel with a larger vector size while it takes less time for it to run with a smaller vector size. When running the kernel with a vector size of 2^30, the program would indefinitely run, seeing as the machine could not handle it, we reduced the last version to 2^29 to where it can be supported.
 # II. C PROGRAM CORRECTNESS CHECKS
 
 # III. x86-64 PROGRAM CORRECTNESS CHECKS
