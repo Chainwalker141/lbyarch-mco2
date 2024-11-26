@@ -12,8 +12,15 @@ Excel Sheet: https://docs.google.com/spreadsheets/d/1JPBbA4TByGVgUIVufFvhg9etAgx
 
 ![image](https://github.com/user-attachments/assets/445cf748-4c77-4cca-9418-0cb1c59f9ca7)
 
+Each version has been run 30 times to determine the average execution time.
+
+For 2^20, The average time is 0.0078.
+For 2^24, The average time is 0.1032333333.
+For 2^29, The average time is 4.596566667.
+
+An observation shows that it takes more time to run a kernel with a larger vector size.   
+
 # II. C PROGRAM CORRECTNESS CHECKS
 
 # III. x86-64 PROGRAM CORRECTNESS CHECKS
 
-# IV. SHORT VIDEO
