@@ -8,7 +8,9 @@ MCO2 project for lbyarch (Sinjian, So)
 
 # I. COMPARISON AND ANALYSIS
 
-Detailed Sheet: https://docs.google.com/spreadsheets/d/1JPBbA4TByGVgUIVufFvhg9etAgxCbArouISoaOKwPk8/edit?gid=0#gid=0
+Excel Sheet: https://docs.google.com/spreadsheets/d/1JPBbA4TByGVgUIVufFvhg9etAgxCbArouISoaOKwPk8/edit?gid=0#gid=0
+
+![image](https://github.com/user-attachments/assets/445cf748-4c77-4cca-9418-0cb1c59f9ca7)
 
 # II. C PROGRAM CORRECTNESS CHECKS
 
