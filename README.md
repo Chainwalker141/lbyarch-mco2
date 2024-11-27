@@ -19,7 +19,37 @@ Each version has been run 30 times to determine the average execution time.
 - For 2^29, The average time is 4.596566667s.
 
 An observation shows that it takes more time to run a kernel with a larger vector size while it takes less time for it to run with a smaller vector size. When running the kernel with a vector size of 2^30, the program would indefinitely run, seeing as the machine could not handle it, we reduced the last version to 2^29 to where it can be supported.
-# II. C PROGRAM CORRECTNESS CHECKS
+
+# II. C PROGRAM CORRECTNESS CHECKS (AND OFFICIAL TESTCASES)
+  1. Example provided in project specs
+    X1 -> 1.5, 4.0, 3.5, 2.0
+    X2 -> 3.0, 2.5, 2.5, 1.0
+    Y1 -> 4.0, 3.0, 3.5, 3.0
+    Y2 -> 2.0, 2.5, 1.0, 1.5
+    Z -> 2.5, 1.58113883, 2.692582404, 1.802775638
+    ![image](https://github.com/user-attachments/assets/5ae94756-59c4-4c2f-9ac3-6eb34bd7ad5b)
+  2. Each value having the same large value (no distance hence 0)
+  	X1 -> 2000000
+    X2 -> 2000000
+    Y1 -> 2000000
+    Y2 -> 2000000
+    Z -> 0
+    ![image](https://github.com/user-attachments/assets/f9aa8036-bb90-48b4-841e-93a9f55bf2d3)
 
 # III. x86-64 PROGRAM CORRECTNESS CHECKS
+  1 . Example provided in project specs
+    X1 -> 1.5
+    X2 -> 3.0
+    Y1 -> 4.0
+    Y2 -> 2.0
+    Z -> 2.5,
+    ![image](https://github.com/user-attachments/assets/7721ba01-013c-4292-80a8-c9a486e0fac1)
+    ![image](https://github.com/user-attachments/assets/9881a4f5-ccd1-45ff-ab06-b1b24791729a)
+  2. Each value having the same large value (no distance hence 0)
+    X1 -> 1000000
+    X2 -> 1000000
+    Y1 -> 1000000
+    Y2 -> 1000000
+    ![image](https://github.com/user-attachments/assets/75524394-9760-4eb9-8694-259d784d5960)
+    ![image](https://github.com/user-attachments/assets/39e20ea0-4610-48a3-9ee1-dd9109b2a25a)
 
